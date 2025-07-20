@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy's Hinge Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="stick-figure" id="jimmy-intro">
+                <div class="head"></div>
+                <div class="body"></div>
+                <div class="arms"></div>
+                <div class="legs"></div>
+            </div>
+            <h1 class="title">Meet Jimmy!</h1>
+            <p class="subtitle">He's been on Hinge for</p>
+            <div class="countup-container">
+                <div class="countup-item">
+                    <span class="countup-number" id="years">0</span>
+                    <span class="countup-label">years</span>
+                </div>
+                <div class="countup-item">
+                    <span class="countup-number" id="months">0</span>
+                    <span class="countup-label">months</span>
+                </div>
+                <div class="countup-item">
+                    <span class="countup-number" id="days">0</span>
+                    <span class="countup-label">days</span>
+                </div>
+                <div class="countup-item">
+                    <span class="countup-number" id="hours">0</span>
+                    <span class="countup-label">hours</span>
+                </div>
+                <div class="countup-item">
+                    <span class="countup-number" id="minutes">0</span>
+                    <span class="countup-label">minutes</span>
+                </div>
+                <div class="countup-item">
+                    <span class="countup-number" id="seconds">0</span>
+                    <span class="countup-label">seconds</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="money-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure" id="jimmy-money">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>Jimmy has spent</h2>
+                        <div class="money-amount">$1,324.78</div>
+                        <h3>on Hinge</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="house-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure" id="jimmy-house">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="house-image">
+                        <div class="house">
+                            <div class="roof"></div>
+                            <div class="house-body"></div>
+                            <div class="door"></div>
+                            <div class="window window-1"></div>
+                            <div class="window window-2"></div>
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <h2>This is why millennials can't afford homes</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="liked-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure" id="jimmy-liked">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>Jimmy has liked</h2>
+                        <div class="number-amount">1,426</div>
+                        <h3>women on Hinge</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="matched-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure sad" id="jimmy-sad-1">
+                        <div class="head">
+                            <div class="sad-eyes">
+                                <div class="eye eye-left"></div>
+                                <div class="eye eye-right"></div>
+                            </div>
+                            <div class="sad-mouth"></div>
+                        </div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>But only</h2>
+                        <div class="number-amount">369</div>
+                        <h3>of these women matched with him</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="liked-by-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure" id="jimmy-liked-by">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>1,694 women have liked Jimmy on Hinge</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="final-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure sad" id="jimmy-sad-2">
+                        <div class="head">
+                            <div class="sad-eyes">
+                                <div class="eye eye-left"></div>
+                                <div class="eye eye-right"></div>
+                            </div>
+                            <div class="sad-mouth"></div>
+                        </div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>But Jimmy only matched with</h2>
+                        <div class="number-amount">424</div>
+                        <h3>of them</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="conclusion-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure sad" id="jimmy-conclusion">
+                        <div class="head">
+                            <div class="sad-eyes">
+                                <div class="eye eye-left"></div>
+                                <div class="eye eye-right"></div>
+                            </div>
+                            <div class="sad-mouth"></div>
+                        </div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>Beggars can't be choosers, Jimmy</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="rizz-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure" id="jimmy-rizz">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>How does Jimmy rizz up his matches?</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="words-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <h2>Here are some of Jimmy's most commonly used words</h2>
+                    </div>
+                    <div class="word-bubbles">
+                        <div class="word-bubble bubble-1">
+                            <span class="word">;)</span>
+                            <span class="count">79 times</span>
+                        </div>
+                        <div class="word-bubble bubble-2">
+                            <span class="word">italian</span>
+                            <span class="count">43 times</span>
+                        </div>
+                        <div class="word-bubble bubble-3">
+                            <span class="word">music</span>
+                            <span class="count">41 times</span>
+                        </div>
+                        <div class="word-bubble bubble-4">
+                            <span class="word">guitar</span>
+                            <span class="count">39 times</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="personality-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure sad" id="jimmy-personality">
+                        <div class="head">
+                            <div class="sad-eyes">
+                                <div class="eye eye-left"></div>
+                                <div class="eye eye-right"></div>
+                            </div>
+                            <div class="sad-mouth"></div>
+                        </div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="text-content">
+                        <h2>Maybe try getting a personality, Jimmy</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="hope-section">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="stick-figure" id="jimmy-hope">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="arms"></div>
+                        <div class="legs"></div>
+                    </div>
+                    <div class="fish-container">
+                        <div class="fish fish-1">🐟</div>
+                        <div class="fish fish-2">🐠</div>
+                        <div class="fish fish-3">🐡</div>
+                        <div class="fish fish-4">🦈</div>
+                        <div class="fish fish-5">🐙</div>
+                        <div class="fish fish-6">🦑</div>
+                    </div>
+                    <div class="text-content">
+                        <h2>But don't worry Jimmy! She's out there somewhere</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jimmy's Hinge Journey. A cautionary tale.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
